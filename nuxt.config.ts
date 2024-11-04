@@ -20,4 +20,12 @@ export default defineNuxtConfig({
       }
     }
   },
+  app: {
+    head: {
+      link: [
+        // <link rel="stylesheet" href="https://myawesome-lib.css">
+        { rel: 'icon', href: '/escss.svg' }
+      ],
+    }
+  }
 })
