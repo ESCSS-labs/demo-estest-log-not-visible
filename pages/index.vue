@@ -63,7 +63,7 @@ const dataList = [
 <template>
   <main id="🌀Main">
     <h1 id="🌀Main__H1">ESCSS-ESTest Error Demo (check console)</h1>
-    <h2 id="🌀Main__H2">isVisible: true <a  href="https://demo-estest-log-not-visible.netlify.app">(for the false version link)</a>; Modify it in the `node_modules`.</h2>
+    <h2 id="🌀Main__H2">isVisible: false <a  href="https://demo-estest-log-visible.netlify.app">(for the true version link)</a>; Modify it in the `node_modules`.</h2>
     <section id="🌀Main__X">
       <p id="🌀Main__X__P">
         type TYPES = 'undefined' | 'null' | 'array' | 'object' | 'boolean' | 'NaN' | 'number' | 'bigint' | 'string' |
