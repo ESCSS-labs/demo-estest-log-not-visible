@@ -63,7 +63,8 @@ const dataList = [
 <template>
   <main id="🌀Main">
     <h1 id="🌀Main__H1">ESCSS-ESTest Error Demo (check console)</h1>
-    <h2 id="🌀Main__H2">isVisible: false - default <a  href="https://demo-estest-log-visible.netlify.app">(for the true version link)</a>; Modify it in the `node_modules`.</h2>
+    <h2 id="🌀Main__H2">isVisible: false - default (<a id="🌀Main__H2__A" href="https://demo-estest-log-visible.netlify.app">for the true version link</a>); Modify it in the `node_modules`.
+    </h2>
     <section id="🌀Main__X">
       <p id="🌀Main__X__P">
         type TYPES = 'undefined' | 'null' | 'array' | 'object' | 'boolean' | 'NaN' | 'number' | 'bigint' | 'string' |
@@ -116,15 +117,26 @@ const dataList = [
 
 <style lang="scss">
 @include utils_base-preflight-v4-modify;
+
 body {
   @include bg-amber-100;
 }
-#🌀Main__H1{
+
+#🌀Main__H1 {
   @include text-3xl;
 }
 
 #🌀Main__H2 {
   @include bg-green-400;
+}
+
+#🌀Main__H2__A {
+  @include text-sky-600;
+  @include duration-300;
+
+  &:hover {
+    @include text-sky-900;
+  }
 }
 
 #🌀Main {
