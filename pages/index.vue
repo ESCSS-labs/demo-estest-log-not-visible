@@ -62,9 +62,9 @@ const dataList = [
 
 <template>
   <main id="🌀Main">
-    <h1 id="🌀Main__H1">ESCSS-ESTest Error Demo</h1>
+    <h1 id="🌀Main__H1">ESCSS-ESTest Error (production demo)</h1>
     <h2 id="🌀Main__H2">Open DevTools (F12) to check error message.
-      <br>This is error message in production. (<a id="🌀Main__H2__A" href="https://demo-estest-log-visible.netlify.app">Check out in development</a>)
+      <br>(<a id="🌀Main__H2__A" href="https://demo-estest-log-visible.netlify.app">Check out in development</a>)
     </h2>
     <section id="🌀Main__X">
       <p id="🌀Main__X__P">
